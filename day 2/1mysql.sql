@@ -14,3 +14,5 @@ VALUES
 (101, 'Rahul', 20, 'CSE'),
 (102, 'Priya', 21, 'ECE'),
 (103, 'Amit', 19, 'EEE');
+
+select name,course from  Studentsrk;

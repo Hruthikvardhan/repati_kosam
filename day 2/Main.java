@@ -5,7 +5,7 @@ public class Main{
     Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number to check prime or not");
         int num = sc.nextInt();
-        boolean isPrime = true;
+        /*boolean isPrime = true;
 
         if(num <=1){
             isPrime= false;
@@ -24,6 +24,8 @@ public class Main{
         }
         else{
             System.out.println("not a prime");
-        }
+        }*/
+
+        System.out.println(((object)i).getClass(),getName());
     }
 }
