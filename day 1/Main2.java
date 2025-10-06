@@ -1,5 +1,5 @@
 //Write a program to find the largest of three numbers entered by the user.
-public class Main2{
+public class Main{
     public static void main(String[] args) {
         int i =1;
         int j =2;
