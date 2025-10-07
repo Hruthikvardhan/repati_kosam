@@ -26,6 +26,6 @@ public class Main{
             System.out.println("not a prime");
         }*/
 
-        System.out.println(((object)i).getClass(),getName());
+        System.out.println(((object)i).getClass().getName());
     }
 }
