@@ -13,7 +13,7 @@ public class Main3 {
         }
 
         int evenSum = 0, oddSum = 0;
-
+        int diff = Math.abs(evenSum - oddSum);
         for (int i = 0; i < n; i++) {
             if (arr[i] % 2 == 0)
                 evenSum += arr[i];
@@ -21,7 +21,7 @@ public class Main3 {
                 oddSum += arr[i];
         }
 
-        int diff = Math.abs(evenSum - oddSum);
+        
 
         System.out.println("Even Sum = " + evenSum);
         System.out.println("Odd Sum = " + oddSum);
